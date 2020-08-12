@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+form {                        /*formatação do formulário fino e centralizado*/
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {                         /*formato a grande maioria dos objetos, textarea para a cx de msg*/
+    font-family: sans-serif; /*fonte sem serifa*/
+    font-weight: normal;      /*normal p q ñ fique em negrito*/
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, .8); /*formata a imagem para q tenha trasparencia e ñ atrapalhe a cx de texto*/
+}
+
+input:hover, textarea:hover { /*textarea para a cx de msg*/
+    background-color: #dddddd;   /*qdo passa o mouse sobe meu input/obj ele mude a cor para um cinza mais claro*/
+}
+
+legend {               /*formatando as legendas*/
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {                 /*formatando as bordas*/
+    border-color: #cecece;
+    margin: 20px;
+}
+
+filter#sexo {                   /*formatação das bordas da op sexo*/
+    width: 150px;
+}
+
+fieldset#usuario {
+    background: url("../_imagens/icone-contato.png.") no-repeat 95% 95%; /*coloca imagem no usuario, no repete e no canto da tela*/
+}
+
+fieldset#endereco {
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%; /*coloca imagem no usuario, no repete e no canto da tela*/
+}
+
+fieldset#mensagem {
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%; /*coloca imagem no usuario, no repete e no canto da tela*/
+}
+
+fieldset#pedido {
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%; /*coloca imagem no usuario, no repete e no canto da tela*/
+}
